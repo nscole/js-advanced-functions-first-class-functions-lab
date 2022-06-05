@@ -2,12 +2,12 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 2,
+    "passes": 5,
     "pending": 0,
-    "failures": 11,
-    "start": "2022-06-05T09:36:28.522Z",
-    "end": "2022-06-05T09:36:28.896Z",
-    "duration": 374
+    "failures": 8,
+    "start": "2022-06-05T09:40:36.577Z",
+    "end": "2022-06-05T09:40:37.419Z",
+    "duration": 842
   },
   "tests": [
     {
@@ -27,32 +27,23 @@
     {
       "title": "has the `returnFirstTwoDrivers` function to as its first element",
       "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "has the `returnLastTwoDrivers` function to as its last element",
       "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:26:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:30:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "selectingDrivers is not defined"
-      }
+      "err": {}
     },
     {
       "title": "returns a function",
@@ -137,36 +128,6 @@
   ],
   "pending": [],
   "failures": [
-    {
-      "title": "has the `returnFirstTwoDrivers` function to as its first element",
-      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:22:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "selectingDrivers is not defined"
-      }
-    },
-    {
-      "title": "has the `returnLastTwoDrivers` function to as its last element",
-      "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:26:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "selectingDrivers is not defined"
-      }
-    },
-    {
-      "title": "allows us to invoke either function from the array",
-      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: selectingDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:30:14)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "selectingDrivers is not defined"
-      }
-    },
     {
       "title": "returns a function",
       "fullTitle": "index.js createFareMultiplier() returns a function",
@@ -259,6 +220,27 @@
     {
       "title": "should return an array of the last two drivers",
       "fullTitle": "index.js returnLastTwoDrivers() should return an array of the last two drivers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnFirstTwoDrivers` function to as its first element",
+      "fullTitle": "index.js selectingDrivers has the `returnFirstTwoDrivers` function to as its first element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has the `returnLastTwoDrivers` function to as its last element",
+      "fullTitle": "index.js selectingDrivers has the `returnLastTwoDrivers` function to as its last element",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "allows us to invoke either function from the array",
+      "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

@@ -24,3 +24,18 @@ const fareQuintupler = createFareMultiplier(5);
 const fareDoubler = function (fare) {
     return fare * 2;
 };
+
+const fareTripler = function (fare3){
+return fare3 * 3;
+};
+
+/* OR
+ const fareDoubler = createFareMultiplier(2);
+  
+const fareTripler = createFareMultiplier(3); */
+
+const selectDifferentDrivers = function (drivers, driversToReturn) {
+    return driversToReturn(drivers);
+}
+
+

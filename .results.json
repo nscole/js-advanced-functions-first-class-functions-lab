@@ -2,12 +2,12 @@
   "stats": {
     "suites": 8,
     "tests": 13,
-    "passes": 5,
+    "passes": 7,
     "pending": 0,
-    "failures": 8,
-    "start": "2022-06-05T09:40:36.577Z",
-    "end": "2022-06-05T09:40:37.419Z",
-    "duration": 842
+    "failures": 6,
+    "start": "2022-06-06T08:57:41.382Z",
+    "end": "2022-06-06T08:57:42.200Z",
+    "duration": 818
   },
   "tests": [
     {
@@ -50,20 +50,14 @@
       "fullTitle": "index.js createFareMultiplier() returns a function",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:38:30)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "createFareMultiplier is not defined"
-      }
+      "err": {}
     },
     {
       "title": "should multiply a given value using the created multiplier",
       "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:44:30)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "createFareMultiplier is not defined"
-      }
+      "err": {}
     },
     {
       "title": "is a function",
@@ -88,7 +82,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareTripler() is a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:62:14)\n    at process.processImmediate (node:internal/timers:471:21)",
@@ -118,7 +112,7 @@
     {
       "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:76:7)\n    at process.processImmediate (node:internal/timers:471:21)",
@@ -129,26 +123,6 @@
   "pending": [],
   "failures": [
     {
-      "title": "returns a function",
-      "fullTitle": "index.js createFareMultiplier() returns a function",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:38:30)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "createFareMultiplier is not defined"
-      }
-    },
-    {
-      "title": "should multiply a given value using the created multiplier",
-      "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: createFareMultiplier is not defined\n    at Context.<anonymous> (test/indexTest.js:44:30)\n    at process.processImmediate (node:internal/timers:471:21)",
-        "message": "createFareMultiplier is not defined"
-      }
-    },
-    {
       "title": "is a function",
       "fullTitle": "index.js fareDoubler() is a function",
       "duration": 0,
@@ -171,7 +145,7 @@
     {
       "title": "is a function",
       "fullTitle": "index.js fareTripler() is a function",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: fareTripler is not defined\n    at Context.<anonymous> (test/indexTest.js:62:14)\n    at process.processImmediate (node:internal/timers:471:21)",
@@ -201,7 +175,7 @@
     {
       "title": "returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
       "fullTitle": "index.js selectDifferentDrivers(arrayOfDrivers, function) returns the last two drivers when passed returnLastTwoDrivers() as the second argument",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: selectDifferentDrivers is not defined\n    at Context.<anonymous> (test/indexTest.js:76:7)\n    at process.processImmediate (node:internal/timers:471:21)",
@@ -241,6 +215,20 @@
     {
       "title": "allows us to invoke either function from the array",
       "fullTitle": "index.js selectingDrivers allows us to invoke either function from the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a function",
+      "fullTitle": "index.js createFareMultiplier() returns a function",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should multiply a given value using the created multiplier",
+      "fullTitle": "index.js createFareMultiplier() should multiply a given value using the created multiplier",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

@@ -20,3 +20,7 @@ const createFareMultiplier = function (fareMultiplier) {
 
 const fareMultiplier = createFareMultiplier(2);
 const fareQuintupler = createFareMultiplier(5);
+
+const fareDoubler = function (fare) {
+    return fare * 2;
+};
